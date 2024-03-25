@@ -1,0 +1,8 @@
+<div [style.background-color]="getCardColor()">
+    <img [src]="car.image" [alt]="car.name">
+    <h2>{{ car.name }}</h2>
+    <p>Mobile: {{ car.mobile }}</p>
+    <p>Price: {{ car.price }}</p>
+    <p [style.color]="getMileageColor()">Mileage: {{ car.mileage }}</p>
+  </div>
+  
